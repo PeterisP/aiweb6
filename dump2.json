@@ -1,0 +1,154 @@
+[
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "",
+        "publications_lv": "",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 6,
+    "model": "team.person"
+},
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "",
+        "publications_lv": "",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 9,
+    "model": "team.person"
+},
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "",
+        "publications_lv": "",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 7,
+    "model": "team.person"
+},
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "",
+        "publications_lv": "",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 13,
+    "model": "team.person"
+},
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "",
+        "publications_lv": "",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 8,
+    "model": "team.person"
+},
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "",
+        "publications_lv": "",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 11,
+    "model": "team.person"
+},
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "",
+        "publications_lv": "",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 12,
+    "model": "team.person"
+},
+{
+    "fields": {
+        "initials": "",
+        "position_lv": "P\u0113tnieks",
+        "user": null,
+        "position_en": "Researcher",
+        "scholar_url": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "ailab_employee": true,
+        "projects_lv": "<p class=\"p1\">\u201eTeksta autom\u0101tiskas datorlingvistikas anal\u012bzes p\u0113t\u012bjums jauna inform\u0101cijas arh\u012bva produkta izstr\u0101d\u0113\u201d, 2013.gada janv\u0101ris-septembris, LIAA, IT kompetences centrs un SIA \u201cLETA\u201d. P\u0113tnieks / projekta vad\u012bt\u0101js</p>\n<p class=\"p1\">\u201eLatvie\u0161u valodas atbalsta r\u012bku izstr\u0101de resursu atkl\u0101\u0161anai\u201d, 2012.gads, Eiropas Re\u0123ion\u0101l\u0101s att\u012bst\u012bbas fonds un Latvijas Nacion\u0101l\u0101 Bibliot\u0113ka. P\u0113tnieks / projekta vad\u012bt\u0101js</p>\n<p class=\"p1\">\u201eFaktoriz\u0113to meto\u017eu lietojums ang\u013cu-latvie\u0161u statistiskaj\u0101 ma\u0161\u012bntulko\u0161anas sist\u0113m\u0101\u201d, 2011, Latvijas Zin\u0101tnes Padome, zin\u0101tniskais asistents</p>\n<p class=\"p2\">\u201eSemantisko datub\u0101zu platforma nozaru speci\u0101listiem\u201d, 2011-2012, Eiropas Re\u0123ion\u0101l\u0101s att\u012bst\u012bbas fonds, zin\u0101tniskais asistents</p>",
+        "publications_lv": "<h3 class=\"p1\">Raksti izdevumos ar apr\u0113\u0137in\u0101tu cit\u0113jam\u012bbas indeksu</h3>\n<p class=\"p2\">Gruzitis N., Paikens P., Barzdins G. FrameNet Resource Grammar Library for GF. Public\u0113ts Controlled Natural Language, Proceedings of Third International Workshop, CNL 2012, Springer Berlin Heidelberg, 2012.</p>\n<p class=\"p3\">Paikens P., Auzina I., Garkaje G., Paegle M. Towards named entity annotation of Latvian National Library corpus. Proceedings of the Fifth International Conference on Human Language Technologies \u2014 The Baltic Perspective, Tartu, 2012.\u00a0</p>\n<p class=\"p2\">Paikens P., Gr\u016bz\u012btis N. An implementation of a Latvian resource grammar in Grammatical Framework. Public\u0113ts Proceedings of the Eighth international conference on Language Resources and Evaluation (LREC 2012), Istanbul, 2012.</p>\n<p class=\"p4\">Paikens P. Lexicon-Based Morphological Analysis of Latvian Language. Public\u0113ts Proceedings of the 3rd Baltic Conference on Human Language Technologies (HLT 2007), Kaunas, October, 2007.</p>\n<h3 class=\"p1\">Raksti cita veida recenz\u0113tos izdevumos</h3>\n<p class=\"p5\">Pretkalni\u0146a L., Paikens P., Gr\u016bz\u012btis N., Rituma L., Spektors A. Making Historical Latvian Texts More Intelligible to Contemporary Readers. Proceedings of the workshop \u201cAdaptation of Language Resources and Tools for Processing Cultural Heritage Objects\u201d the Eight International Conference on Language Resources and Evaluation (LREC'12)</p>\n<p class=\"p4\">Paikens P., Rituma, L., Pretkalni\u0146a, L. Morphological analysis with limited resources: Latvian example. Proceedings of the 19th Nordic Conference of Computational Linguistics (NODALIDA 2013).</p>\n<p class=\"p4\">Paikens P. \u201eAutom\u0101tiskas morfolo\u0123iskas anot\u0101cijas izmantojums\u201d \u2013 sagatavots un iesniegts public\u0113\u0161anai rakstu kr\u0101jum\u0101 \u201eV\u0101rds un t\u0101 p\u0113t\u012b\u0161anas aspekti 2013\u201d.</p>\n<h3 class=\"p1\">Nosl\u0113guma darbi</h3>\n<p class=\"p4\">Paikens P. Latvie\u0161u valodas automatiz\u0113ta morfolo\u0123isk\u0101 un sintaktisk\u0101 anal\u012bze; bakalaura darbs; 2007, Latvijas Universit\u0101te</p>\n<p class=\"p6\">Paikens P. Latvijas mobilo sakaru tirgus att\u012bst\u012bbas model\u0113\u0161ana; ma\u0123istra darbs, 2011, R\u012bgas Tehnisk\u0101 Universit\u0101te\u00a0</p>",
+        "email": "peteris@ailab.lv",
+        "linkedin_url": "http://www.linkedin.com/in/ppaikens",
+        "researchgate_url": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "publications_en": "",
+        "projects_en": ""
+    },
+    "pk": 10,
+    "model": "team.person"
+}
+]

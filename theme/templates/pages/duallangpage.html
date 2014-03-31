@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load mezzanine_tags keyword_tags i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+
+{% block meta_title %}{{ page.meta_title }}{% endblock %}
+
+{% block meta_keywords %}{% metablock %}
+{% keywords_for page as keywords %}
+{% for keyword in keywords %}
+    {% if not forloop.first %}, {% endif %}
+    {{ keyword }}
+{% endfor %}
+{% endmetablock %}{% endblock %}
+
+{% block meta_description %}{% metablock %}
+{{ page.description }}
+{% endmetablock %}{% endblock %}
+
+{% block title %}
+{% if LANGUAGE_CODE == "lv" and page.duallangpage.title_lv %}
+	{% editable page.duallangpage.title_lv %}{{ page.duallangpage.title_lv }}{% endeditable %}
+{% else %}
+	{% editable page.title %}{{ page.title }}{% endeditable %}
+{% endif %}
+{% endblock %}
+
+{% block main %}
+{% if LANGUAGE_CODE == "lv" and page.duallangpage.content_lv %}
+	{% editable page.duallangpage.content_lv %}
+	{{ page.duallangpage.content_lv|richtext_filters|safe }}
+	{% endeditable %}
+{% else %}
+	{% editable page.duallangpage.content_en %}
+	{{ page.duallangpage.content_en|richtext_filters|safe }}
+	{% endeditable %}
+{% endif %}
+{% endblock %}

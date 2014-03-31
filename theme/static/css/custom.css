@@ -1,0 +1,55 @@
+/* AILab skin for bootstrap */
+/* Core colors:
+  AiLab logo green: A7BE2A
+    -> bright green: CAE533
+  AiLab logo dark: 1D2637
+    -> bright "bluegray": A7B3C9
+  Neutral gray: BFBFBF
+*/
+
+.navbar-inverse {
+  background-color: #1D2637;
+}
+
+body {
+  color: #1D2637;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar a {
+  font-size: 17px;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: #BFBFBF;
+  line-height: 24px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #CAE533;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #CAE533; 
+  font-weight: 500; 
+}
+
+/* override Mezzanine code that breaks on inverse navbars */
+.nav > li > a.dropdown-toggle:hover {
+	color: #CAE533;
+	background-color:#080808;
+}
+
+/* Fix bootstrap bug where dropdowns from inverse navbar aren't inverted */
+.navbar-inverse .dropdown-menu {
+  background-color: #222;
+  border-color: #080808;
+}
+.navbar-inverse .dropdown-menu > li > a {
+  color: #BFBFBF;
+}
+.navbar-inverse .dropdown-menu > li > a:hover {
+  color: #CAE533;
+  background-color: #080808;
+  background-image:none;
+}

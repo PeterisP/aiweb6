@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "University of Latvia IMCS AILab" %}{% endblock %}
+{% block title %}{% trans "Mākslīgā intelekta laboratorija" %}{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+<div class="row">
+	<div class="col-md-4">
+		<h3>Pētniecības projekti</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		<p>
+		</p>
+		<h4>Sadarbība ar komercuzņēmumiem</h4>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+	</div>
+    <div class="col-md-4">
+      <h3>Studentiem</h3>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      <h5><a href="http://www.ailab.lv/specseminars">Specseminārs LU datorzinātņu bakalaura studentiem</a></h5>
+      <h5><a href="#">Tēmas diplomdarbiem un pētniecības projektiem</a></h5>
+    </div>
+    <div class="col-md-4">
+      <h3>Valodas tehnoloģijas</h3>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      <h4><a href="http://www.tezaurs.lv">www.tezaurs.lv</a></h4>
+      <h4><a href="http://www.korpuss.lv">www.korpuss.lv</a></h4>
+    </div>
+</div>
+{% endblocktrans %}
+{% endblock %}

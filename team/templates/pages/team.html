@@ -1,0 +1,30 @@
+{% extends "pages/duallangpage.html" %}
+
+{% load pages_tags mezzanine_tags %}
+
+
+{% block fullwidth %}
+<br/>
+{% page_menu page "pages/menus/team_list.html" %}
+{% endblock %}
+
+{% comment %} The following blocks are ignored since the fullwidth eliminates them {% endcomment %}
+{% block main %}{{ block.super }}
+
+{% page_menu page "pages/menus/team_list.html" %}
+
+{% endblock %}
+
+{% block right_panel %}
+<script type="text/javascript">
+    (function() {
+        var st = document.createElement('script');
+        st.type = 'text/javascript';
+        st.async = true;
+        st.src = 'https://www.researchgate.net/javascript/plugin/plugin-api-min.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(st, s);
+    })();
+</script>
+<div class="rg-plugin" data-type="department" data-publications="true" data-width="300" data-theme="light" data-height="426" data-installationId="53318fcfd685cc710f8b4618"></div>
+{% endblock %}

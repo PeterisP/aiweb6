@@ -1,0 +1,58 @@
+{% extends "pages/page.html" %}
+
+{% load pages_tags mezzanine_tags i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+
+{% block main %}{{ block.super }}
+<h2>{% trans "Publications" %}</h2>
+{% if LANGUAGE_CODE == "lv" %}
+	{% editable page.person.publications_lv %}
+	{{ page.person.publications_lv|richtext_filters|safe }}
+	{% endeditable %}
+{% else %}
+	{% editable page.person.publications_en %}
+	{{ page.person.publications_en|richtext_filters|safe }}
+	{% endeditable %}
+{% endif %}
+<h2>{% trans "Projects" %}</h2>
+{% if LANGUAGE_CODE == "lv" %}
+	{% editable page.person.projects_lv %}
+	{{ page.person.projects_lv|richtext_filters|safe }}
+	{% endeditable %}
+{% else %}
+	{% editable page.person.projects_en %}
+	{{ page.person.projects_en|richtext_filters|safe }}
+	{% endeditable %}
+{% endif %}
+{% endblock %}
+
+
+{% block right_panel %}
+<br/>
+<div class="thumbnail">
+	<img src="http://lorempixel.com/240/240/people">
+</div>
+<h3>
+{% editable page.person.title %}
+	{{page.person.title}}
+{% endeditable %}
+<small>
+{% if LANGUAGE_CODE == "lv" %}
+	{% editable page.person.position_lv %}
+	{{ page.person.position_lv|richtext_filters|safe }}
+	{% endeditable %}
+{% else %}
+	{% editable page.person.position_en %}
+	{{ page.person.position_en|richtext_filters|safe }}
+	{% endeditable %}
+{% endif %}
+</small>
+</h3>
+{{page.person.email}}
+{% editable page.person.linkedin_url page.person.researchgate_url page.person.scholar_url %}
+<a href="{{page.person.linkedin_url}}">LinkedIn</a> <br/>
+<a href="{{page.person.researchgate_url}}">ResearchGate</a> <br/>
+<a href="{{page.person.scholar_url}}">Google Scholar</a> <br/>
+{% endeditable %}
+{% endblock %}
