@@ -25,6 +25,9 @@
 	{% endfor %}
 	<br />
 {% endif %}
+{% if publication.indexed %}
+	Indexed: {{publication.indexed}}
+{% endif %}
 {% if publication.code %}<a class="link" href="{{ publication.code }}">Code</a>,{% endif %}
 {% if publication.url %}<a class="link" rel="external" href="{{ publication.url }}">URL</a>,{% endif %}
 {% if publication.doi %}<a class="link" rel="external" href="http://dx.doi.org/{{ publication.doi }}">DOI</a>,{% endif %}

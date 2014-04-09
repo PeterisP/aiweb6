@@ -1,0 +1,51 @@
+{% extends "pages/page.html" %}
+
+{% load pages_tags mezzanine_tags i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+
+{% block main %}
+<div class="table-responsive">
+  <table class="table table-striped">
+	<tr>
+		<th>{% trans "Gads" %}</th>
+		<td>
+			{% editable page.project.startyear page.project.endyear %}
+			{{ page.project.startyear }}&nbsp;-&nbsp;{{ page.project.endyear }}
+			{% endeditable %}
+		</td>		
+	<tr>
+		<th>{% trans "Finansējums" %}</th>
+		<td>
+			{% editable page.project.funder page.project.program page.project.funding %}
+			{{ page.project.funder }}<br/>{{ page.project.program }}
+			{% endeditable %}
+		</td>
+	</tr>
+	<tr>
+		<th>{% trans "Dalībnieki" %}</th>
+		<td>
+			{% editable page.project.people_list %}
+			{{ page.project.people_list }}
+			{% endeditable %}
+		</td>
+	</tr>
+	{% if page.project.url %}
+	<tr>
+  		<th>{% trans "Mājaslapa" %}</th>
+  		<td>
+  			{% editable page.project.url %}
+			{{page.project.url}}
+			{% endeditable %}
+		</td>			
+  	</tr>
+  </table>
+  	{% else %}
+  </table>
+		{% editable page.project.url %}
+		{{page.project.url}}
+		{% endeditable %}		
+  	{% endif %}
+</div>
+
+{% endblock %}

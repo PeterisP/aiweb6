@@ -1,0 +1,157 @@
+[
+    {
+        "researchgate": "https://www.researchgate.net/profile/Pteris_Paikens/",
+        "scholar": "http://scholar.google.com/citations?user=ux9OXAgAAAAJ",
+        "position": "Pētnieks",
+        "name": "Pēteris Paikens",
+        "email": "peteris@ailab.lv",
+        "degree": "Mg. oec.",
+        "linkedin": "http://www.linkedin.com/in/ppaikens",
+        "github" : "https://github.com/PeterisP",
+        "position_en": "Researcher",
+        "interests": "Information retrieval, machine learning, Latvian morphology"
+    },
+    {
+        "degree": "B. sc. comp.",
+        "linkedin": "lv.linkedin.com/in/gintagarkaje",
+        "interests": "Tiešsaistes valodas normalizācija, valodnieku anotēšanas rīku uzturēšana.",
+        "github" : "https://github.com/ginta",
+        "name": "Ginta Garkāje",
+        "position": "Programmēšanas inženieris"
+    },
+    {
+        "degree": "Dr. sc. comp.",
+        "url": "http://www.ailab.lv/users/inguna/",
+        "name": "Inguna Skadiņa",
+        "interests": "mašīntulkošana, valodas resursi, morfoloģiskā un sintaktiskā analīze\nLZP eksperte\n",
+        "position_en": "Senior researcher",
+        "position": "Vadošā pētniece"
+    },
+    {
+        "name": "Lauma Pretkalniņa",
+        "interests": "sintaktiski anotētā latviešu korpusa izstrādes IT puse, statistisko latviešu valodas parseru apmācība, pagātnē esmu darbojusies ar veco LNB tekstu transliterēšanu un vārdnīcu transformēšanu mašīnlasāmā formā",
+        "researchgate": "http://www.researchgate.net/profile/Lauma_Pretkalnina/",
+        "degree": "Mg. sc. comp.",
+        "position": "Pētniece",
+        "position_en": "Researcher",
+        "github" : "https://github.com/lauma",
+        "linkedin": "http://lv.linkedin.com/in/laumapretkalnina",
+        "url": "http://exp.ailab.lv/tred/"
+    },
+    {
+        "name": "Didzis Goško",
+        "degree": "???",
+        "interests": "Semantic frame parsing",
+        "position": "Pētnieks",
+        "position_en": "Researcher",
+        "github" : "https://github.com/didzis"
+    },
+    {
+        "degree": "Mg. philol.",
+        "name": "Baiba Valkovska (dzim. Saulīte)",
+        "interests": "datorlingvistika, sintakse, semantika, diskurss",
+        "position": "Pētniece",
+        "position_en": "Researcher"
+    },
+    {
+        "degree": "Mg. philol.",
+        "name": "Kristīne Pokratniece",
+        "interests": "Folkloras digitalizācija, latgalistika",
+        "position": "Zinātniskā asistente",
+        "position_en": "Research assistant"
+    },
+    {
+        "degree": "Mg. philol.",
+        "name": "Daira Vēvere",
+        "interests": "Korpuslingvistika un dialektoloģija",
+        "position": "Zinātniskā asistente",
+        "position_en": "Research assistant"
+    },
+    {
+        "researchgate": "http://www.researchgate.net/profile/Laura_Rituma/",
+        "degree": "Mg. philol.",
+        "name": "Laura Rituma",
+        "interests": "Sintaktiski marķēta latviešu valodas tekstu korpusa izveide, teksta semantiskā analīze",
+        "position": "Pētniece",
+        "position_en": "Researcher"
+    },
+    {
+        "researchgate": "https://www.researchgate.net/profile/Normunds_Gruzitis/",
+        "degree": "Dr. sc. comp.",
+        "linkedin": "https://www.linkedin.com/in/normundsg",
+        "name": "Normunds Grūzītis",
+        "interests": "Controlled natural language",
+        "position": "Vadošais pētnieks",
+        "position_en": "Senior researcher"
+    },
+    {
+        "degree": "Mg. philol.",
+        "name": "Gunta Nešpore",
+        "interests": "leksiskā un gramatiskā semantika, leksikogrāfija",
+        "position": "Pētniece",
+        "position_en": "Researcher"
+    },
+    {
+        "content": "Latvijas Zinātņu akadēmijas korespondētājloceklis<br\\><a href=\"http://www.ltn.lv/~guntis/\">http://www.ltn.lv/~guntis/</a><a href=\"http://www.lza.lv/scientists/barzdinsg.htm\">http://www.lza.lv/scientists/barzdinsg.htm</a><a href=\"http://www.lu.lv/par/kontaktinformacija/meklesana/persona/4d8da35761b21e91e579563043237f3f/\">http://www.lu.lv/par/kontaktinformacija/meklesana/persona/4d8da35761b21e91e579563043237f3f/</a>",
+        "degree": "Dr. dat.",
+        "name": "Guntis Bārzdiņš",
+        "interests": "Datorlingvistika, semantiskās tehnoloģijas",
+        "position": "Vadošais pētnieks",
+        "position_en": "Senior researcher"
+    },
+    {
+        "degree": "B. sc. comp.",
+        "name": "Roberts Darģis",
+        "interests": "Runas apstrādes tehnoloģijas",
+        "github" : "https://github.com/skriptotajs",
+        "position": "Programmēšanas inženieris"
+    },
+    {
+        "degree": "B. sc. comp.",
+        "name": "Artūrs Znotiņš",
+        "interests": "Koreferences, NER",
+        "github": "https://github.com/chaosfoal",
+        "position": "Programmēšanas inženieris"
+    },
+    {
+        "degree": "Mg. comp. sc.",
+        "name": "Ilmārs Poikāns",
+        "interests": "Digitalizācija",
+        "position": "Pētnieks",
+        "position_en": "Researcher"
+    },
+    {
+        "degree": "Mg. philol.; profesionālais maģistra grāds tulkošanā un terminoloģijā",
+        "name": "Kristīne Levāne-Petrova",
+        "interests": "datorlingvistika, korpuslingvistika, sastatāmā valodniecība, tulkošana",
+        "position": "Pētniece",
+        "position_en": "Researcher"
+    },
+    {
+        "content": "Latgaliešu rakstu valodas komisijas locekle",
+        "degree": "Dr. philol.",
+        "name": "Ilze Sperga",
+        "interests": "Latgalistika",
+        "position": "Vadošā pētniece",
+        "position_en": "Senior researcher"
+    },
+    {
+        "degree": "Dr. philol.",
+        "name": "Ilze Auziņa",
+        "interests": "Fonētika",
+        "position": "Vadošā pētniece",
+        "position_en": "Senior researcher"
+    },
+    {
+        "degree": "Mg. philol.",
+        "name": "Guna Rābante-Buša",
+        "interests": "Fonētika, runas analīze un apstrāde",
+        "position": "Zinātniskā asistente"
+    },
+    {
+        "degree": "Dr.phys.",
+        "name": "Andrejs Spektors",
+        "interests": "",
+        "position": "Laboratorijas vadītājs"
+    }
+]
