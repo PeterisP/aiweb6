@@ -2,7 +2,6 @@
 
 from os import environ
 environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-
 from settings import *
 from theme.models import DualLangPage
 from team.models import Person, Project
@@ -31,6 +30,8 @@ createPage('Language resources', 'Valodas resursi', resource_text, resource_text
 
 conf_text = "<ul class=\"ul1\">\n<li class=\"li1\">LU 72. konferences Datorlingvistikas sekcija 2014. gada 19. febru\u0101r\u012b</li>\n<li class=\"li1\">18th Nordic Conference on Computational Linguistics (NODALIDA), May 12\u201313, 2011 (http://nodalida2011.lumii.lv/)\u00a0</li>\n<li class=\"li1\">4th International Conference \u201cHuman Language Technologies\u00a0\u2014 the Baltic Perspective\u201d, October 7\u20138, 2010 <b>(</b><a href=\"http://hlt2010.lumii.lv/\">http://hlt2010.lumii.lv/</a>)</li>\n<li class=\"li1\">Nordic Graduate School of Language Technology, short courses \u201cLexicography, lexicology, and corpus analysis\u201d, November 2007 (<a href=\"http://lumii.lv/ngslt/hanks/\">http://lumii.lv/ngslt/hanks</a><a href=\"http://lumii.lv/ngslt/h\">/</a>) and\u00a0 \u201cCorpus Annotation: Sentence and Discourse\u201d, March 2009 (<a href=\"http://lumii.lv/ngslt/hajicova\">http://lumii.lv/ngslt/hajicova</a>)\u00a0</li>\n<li class=\"li1\">\u201cCLARIN and the National Corpus\u201d, November 3, 2008 (http://clarin.lv/) <b>(CLARIN un Nacion\u0101l\u0101 korpusa semin\u0101rs )</b>\u00a0</li>\n<li class=\"li2\">LU 66. konferences Datorlingvistikas sekcija 2008. gada 6. febru\u0101r\u012b\u00a0</li>\n<li class=\"li1\">The First Baltic Conference \u201cHuman Language Technologies \u2014 the Baltic Perspective\u201d, April 21<b>\u2013</b>22, 2004\u00a0</li>\n<li class=\"li1\">\u201cLanguage &amp; Technology in Europe 2000\u201d, Riga, November 10\u201311, 1994</li>\n</ul>"
 createPage('Conferences', 'Konferences', conf_text, conf_text)
+
+createPage('Publications', 'Publikācijas', '', '')
 
 def createPerson (person):
 	p = Person(title=person['name'], parent_id = team_id)
