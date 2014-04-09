@@ -9,6 +9,7 @@ from django.utils.http import urlquote_plus
 from publications.fields import PagesField
 from publications.models import Type, List
 from string import ascii_uppercase
+from django.core.urlresolvers import reverse
 
 class Publication(models.Model):
 	"""
@@ -84,6 +85,7 @@ class Publication(models.Model):
 	isbn = models.CharField(max_length=32, verbose_name="ISBN", blank=True,
 		help_text='Only for a book.') # A-B-C-D
 	lists = models.ManyToManyField(List, blank=True)
+	indexed = models.CharField(max_length=256, blank=True)
 
 	def __init__(self, *args, **kwargs):
 		models.Model.__init__(self, *args, **kwargs)
@@ -248,6 +250,8 @@ class Publication(models.Model):
 		if not self.citekey:
 			self.citekey = self.key()
 
+	def get_absolute_url(self):
+	    return reverse('publications.views.id', args=[str(self.id)])
 
 	@staticmethod
 	def simplify_name(name):

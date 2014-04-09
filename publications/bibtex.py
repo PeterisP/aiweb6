@@ -31,6 +31,7 @@ special_chars = (
 	(r'{\=e}', 'ē'), (r'{\=E}', 'Ē'), 
 	(r'{\`g}', 'ģ'), (r'{\`G}', 'Ģ'), 
 	(r'{\=i}', 'ī'), (r'{\=I}', 'Ī'), 
+	(r'{\=\i}', 'ī'), (r'{\=\I}', 'Ī'), 
 	(r'{\c{k}}', 'ķ'), (r'{\c{K}}', 'Ķ'), 
 	(r'{\c{l}}', 'ļ'), (r'{\c{L}}', 'Ļ'), 
 	(r'{\c{n}}', 'ņ'), (r'{\c{N}}', 'Ņ'), 
@@ -217,5 +218,5 @@ def import_bibtex_data(bib):
 			else:
 				msg = 'Successfully added ' + str(len(publications)) + ' publication.'
 
-	return {'errors':errors, 'msg':msg}
+	return {'errors':errors, 'msg':msg, 'publications':publications}
 

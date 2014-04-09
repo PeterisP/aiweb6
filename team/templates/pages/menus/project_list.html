@@ -1,0 +1,19 @@
+{% load pages_tags %}
+<div class="row">
+<div class="table-responsive">
+  <table class="table table-striped">
+  	<tr>
+  		<th>Gads</th>
+  		<th>Nosaukums</th>
+  		<th>Finansētājs</th> 		
+  	</tr>
+	{% for page in page_branch %}
+	<tr>
+		<td>{{ page.project.startyear }}&nbsp;-&nbsp;{{ page.project.endyear }}</td>
+		<td><a href="{{ page.get_absolute_url }}">{{ page.title }}</a></td>
+		<td>{{ page.project.funder }}</td>
+	</tr>
+	{% endfor %}
+  </table>
+</div>
+</div>

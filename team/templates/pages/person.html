@@ -4,27 +4,88 @@
 {% get_current_language as LANGUAGE_CODE %}
 {% get_language_info for LANGUAGE_CODE as lang %}
 
-{% block main %}{{ block.super }}
+{% block title %}{% endblock %}
+{% block main %}
+<h1>
+{% editable page.person.title %}
+	{{page.person.title}}
+{% endeditable %}
+<small>
+{% if LANGUAGE_CODE == "lv" %}
+	{% editable page.person.position_lv page.person.degree%}
+	{{ page.person.degree }}, {{ page.person.position_lv }}
+	{% endeditable %}
+{% else %}
+	{% editable page.person.position_en page.person.degree%}
+	{{ page.person.degree }}, {{ page.person.position_en }}
+	{% endeditable %}
+{% endif %}
+</small>
+</h1>
+{% trans "Intereses: " %}
+{% if LANGUAGE_CODE == "lv" %}
+	{% editable page.person.interests_lv %}
+	{{ page.person.interests_lv }}
+	{% endeditable %}
+{% else %}
+	{% editable page.person.interests_en %}
+	{{ page.person.interests_en }}
+	{% endeditable %}
+{% endif %}
+{% if LANGUAGE_CODE == "lv" and page.person.content_lv %}
+	{% editable page.person.content_lv %}
+	{{ page.person.content_lv|richtext_filters|safe }}
+	{% endeditable %}
+{% else %}
+	{% editable page.person.content_en %}
+	{{ page.person.content_en|richtext_filters|safe }}
+	{% endeditable %}
+{% endif %}
 <h2>{% trans "Publications" %}</h2>
-{% if LANGUAGE_CODE == "lv" %}
-	{% editable page.person.publications_lv %}
-	{{ page.person.publications_lv|richtext_filters|safe }}
-	{% endeditable %}
-{% else %}
-	{% editable page.person.publications_en %}
-	{{ page.person.publications_en|richtext_filters|safe }}
-	{% endeditable %}
-{% endif %}
+<div class="table-responsive">
+  <table class="table table-striped">
+  	<tr>
+  		<th class="col-md-6">Title</th>
+  		<th>Published</th> 		
+  	</tr>
+	{% for pub in page.person.publications.all %}
+	<tr>
+		<td><a href="{{ pub.get_absolute_url }}">{{ pub.title }}</a></td>
+		<td>
+			{% if pub.journal %}
+				<i>{{ pub.journal }}, {{ pub.year }}</i><br />
+			{% else %}
+				<i>{% if pub.book_title %}{{ pub.book_title }},{% endif %}
+				{% if pub.publisher %}{{ pub.publisher }},{% endif %}
+				{% if pub.institution %}{{ pub.institution }},{% endif %}
+				{{ pub.year }}{% if pub.isbn %},
+				ISBN {{ pub.isbn }}{% endif %}</i><br />
+			{% endif %}
+		</td>
+	</tr>
+	{% endfor %}
+  </table>
+</div>	
+
 <h2>{% trans "Projects" %}</h2>
-{% if LANGUAGE_CODE == "lv" %}
-	{% editable page.person.projects_lv %}
-	{{ page.person.projects_lv|richtext_filters|safe }}
-	{% endeditable %}
-{% else %}
-	{% editable page.person.projects_en %}
-	{{ page.person.projects_en|richtext_filters|safe }}
-	{% endeditable %}
-{% endif %}
+<div class="table-responsive">
+  <table class="table table-striped">
+  	<tr>
+  		<th>{% trans "Gads" %}</th>
+  		<th>{% trans "Nosaukums" %}</th>
+  		<th>{% trans "Finansētājs" %}</th> 		
+  	</tr>
+	{% for project in page.person.projects.all %}
+	<tr>
+		<td>{{ project.startyear }}&nbsp;-&nbsp;{{ project.endyear }}</td>
+		<td><a href="{{ project.get_absolute_url }}">{{ project.title }}</a></td>
+		<td class="col-md-3">{{ project.funder }}</td>
+	</tr>
+	{% endfor %}
+  </table>
+</div>	
+
+
 {% endblock %}
 
 
@@ -38,21 +99,34 @@
 	{{page.person.title}}
 {% endeditable %}
 <small>
+<br/>
 {% if LANGUAGE_CODE == "lv" %}
 	{% editable page.person.position_lv %}
-	{{ page.person.position_lv|richtext_filters|safe }}
+	{{ page.person.position_lv }}
 	{% endeditable %}
 {% else %}
 	{% editable page.person.position_en %}
-	{{ page.person.position_en|richtext_filters|safe }}
+	{{ page.person.position_en }}
 	{% endeditable %}
 {% endif %}
 </small>
 </h3>
-{{page.person.email}}
-{% editable page.person.linkedin_url page.person.researchgate_url page.person.scholar_url %}
-<a href="{{page.person.linkedin_url}}">LinkedIn</a> <br/>
-<a href="{{page.person.researchgate_url}}">ResearchGate</a> <br/>
-<a href="{{page.person.scholar_url}}">Google Scholar</a> <br/>
+
+{% editable page.person.email page.person.linkedin_url page.person.researchgate_url page.person.scholar_url %}
+{% if page.person.email %}
+	<i class="fa fa-fw fa-envelope"></i> <a href="mailto:{{page.person.email}}">{{page.person.email}}</a> <br/>
+{% endif %}
+{% if page.person.linkedin_url %}
+<i class="fa fa-fw fa-linkedin"></i> <a href="{{page.person.linkedin_url}}">LinkedIn</a> <br/>
+{% endif %}
+{% if page.person.github_url %}
+<i class="fa fa-fw fa-github"></i> <a href="{{page.person.github_url}}">GitHub</a> <br/>
+{% endif %}
+{% if page.person.researchgate_url %}
+<i class="fa fa-fw fa-certificate"></i> <a href="{{page.person.researchgate_url}}">ResearchGate</a> <br/>
+{% endif %}
+{% if page.person.scholar_url %}
+<i class="fa fa-fw fa-google-plus"></i> <a href="{{page.person.scholar_url}}">Google Scholar</a> <br/>
+{% endif %}
 {% endeditable %}
 {% endblock %}

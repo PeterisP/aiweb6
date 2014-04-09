@@ -1,4 +1,4 @@
-{% load publication_extras %}
+{% load publication_extras mezzanine_tags %}
 
 {% if publication.authors_escaped|length > 8 %}
 	{% for author, author_escaped in publication.authors_escaped|slice:":8" %}
@@ -9,7 +9,10 @@
 	<a href="/publications/{{ author_escaped }}/" class="author">{{ author }}</a>{% if not forloop.last %}{% if forloop.revcounter == 2 %}{% if not forloop.first %},{% endif %} and {% else %}, {% endif %}{% endif %}
 	{% endfor %}<br />
 {% endif %}
+{% editable publication.title %}
 <b><a href="/publications/{{ publication.pk }}/" class="title">{{ publication.title|tex_parse }}</a></b><br/>
+{% endeditable %}
+{% editable publication.journal publication.year publication.publisher %}
 {% if publication.journal %}
 	<i>{{ publication.journal }}, {{ publication.year }}</i><br />
 {% else %}
@@ -19,11 +22,15 @@
 	{{ publication.year }}{% if publication.isbn %},
 	ISBN {{ publication.isbn }}{% endif %}</i><br />
 {% endif %}
+{% endeditable %}
 {% if publication.keywords %}
 	{% for keyword, keyword_escaped in publication.keywords_escaped %}
 		<a class="keyword" href="/publications/tag/{{ keyword_escaped }}/">{{ keyword }}</a>
 	{% endfor %}
 	<br />
+{% endif %}
+{% if publication.indexed %}
+	Indexed: {{publication.indexed}}
 {% endif %}
 {% if publication.code %}<a class="link" href="{{ publication.code }}">Code</a>,{% endif %}
 {% if publication.url %}<a class="link" rel="external" href="{{ publication.url }}">URL</a>,{% endif %}
