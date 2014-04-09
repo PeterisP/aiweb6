@@ -113,6 +113,7 @@ def createProject(project):
 
 with open ('initialdata/people.json', 'r') as f:
 	people = json.load(f)
+	people.sort(key=lambda x:x['name'])
 	for p in people:
 		createPerson(p)
 

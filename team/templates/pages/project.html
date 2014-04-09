@@ -48,4 +48,31 @@
   	{% endif %}
 </div>
 
+{% if page.project.publications.all %}
+<h2>{% trans "Publications" %}</h2>
+<div class="table-responsive">
+  <table class="table table-striped">
+  	<tr>
+  		<th class="col-md-6">Title</th>
+  		<th>Published</th> 		
+  	</tr>
+	{% for pub in page.project.publications.all %}
+	<tr>
+		<td><a href="{{ pub.get_absolute_url }}">{{ pub.title }}</a></td>
+		<td>
+			{% if pub.journal %}
+				<i>{{ pub.journal }}, {{ pub.year }}</i><br />
+			{% else %}
+				<i>{% if pub.book_title %}{{ pub.book_title }},{% endif %}
+				{% if pub.publisher %}{{ pub.publisher }},{% endif %}
+				{% if pub.institution %}{{ pub.institution }},{% endif %}
+				{{ pub.year }}{% if pub.isbn %},
+				ISBN {{ pub.isbn }}{% endif %}</i><br />
+			{% endif %}
+		</td>
+	</tr>
+	{% endfor %}
+  </table>
+</div>
+{% endif %}
 {% endblock %}
