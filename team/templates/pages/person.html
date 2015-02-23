@@ -91,9 +91,16 @@
 
 {% block right_panel %}
 <br/>
+{% editable page.person.picture %}
 <div class="thumbnail">
+{% if page.person.picture %}
+	<img src="{{page.person.picture.url}}">
+{% else %}
 	<img src="http://lorempixel.com/240/240/people">
+{% endif %}
 </div>
+{% endeditable %}
+
 <h3>
 {% editable page.person.title %}
 	{{page.person.title}}
@@ -112,7 +119,10 @@
 </small>
 </h3>
 
-{% editable page.person.email page.person.linkedin_url page.person.researchgate_url page.person.scholar_url %}
+{% editable page.person.email page.person.linkedin_url page.person.researchgate_url page.person.scholar_url page.person.homepage_url%}
+{% if page.person.homepage_url %}
+	<i class="fa fa-fw fa-home"></i> <a href="{{page.person.homepage_url}}">{% trans "Homepage" %}</a> <br/>
+{% endif %}
 {% if page.person.email %}
 	<i class="fa fa-fw fa-envelope"></i> <a href="mailto:{{page.person.email}}">{{page.person.email}}</a> <br/>
 {% endif %}

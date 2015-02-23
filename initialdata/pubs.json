@@ -145,7 +145,7 @@
    },
    {
       "authors":"Gunta Nešpore, Baiba Saulīte",
-      "bibtex":"Latviešu valodas verbu valences marķēšana ",
+      "bibtex":"Latviešu valodas verbu valences marķēšana",
       "journal":"Valoda: nozīme un forma. Teorija un metodoloģija latviešu valodniecībā.",
       "volume":"",
       "place":"Rīga",
@@ -153,7 +153,7 @@
       "year":2013,
       "pages":"97.–106. lpp.",
       "indexed":"",
-      "project_name":""
+      "project_name":"Semantisko datubāzu platforma nozaru speciālistiem"
    },
    {
       "authors":"Lauma Pretkalniņa, Laura Rituma",
@@ -169,7 +169,7 @@
    },
    {
       "authors":"E. Rimkutė, A. Utka, K. Levāne-Petrova",
-      "bibtex":"Lietuvių–latvių ir latvių–lietuvių kalbų lygiagretusis tekstynas LILA. ",
+      "bibtex":"Lietuvių–latvių ir latvių–lietuvių kalbų lygiagretusis tekstynas LILA.",
       "journal":"Kalbų studijos",
       "volume":"Nr. 23",
       "place":"Kaunas",
@@ -177,7 +177,7 @@
       "year":2013,
       "pages":"70.-77.",
       "indexed":"",
-      "project_name":""
+      "project_name":"Humanitārās izglītības pētniecības infrastruktūras izveide Austrumlatvijā, Lietuvā (HipiLatLit)"
    },
    {
       "authors":"",
@@ -321,7 +321,7 @@
       "year":2012,
       "pages":"180.–188. lpp.",
       "indexed":"",
-      "project_name":""
+      "project_name":"Humanitārās izglītības pētniecības infrastruktūras izveide Austrumlatvijā, Lietuvā (HipiLatLit)"
    },
    {
       "authors":"Baiba Saulīte, Gunta Nešpore",
@@ -705,7 +705,7 @@
       "year":2011,
       "pages":"p. 35",
       "indexed":"",
-      "project_name":""
+      "project_name":"Humanitārās izglītības pētniecības infrastruktūras izveide Austrumlatvijā, Lietuvā (HipiLatLit)"
    },
    {
       "authors":"Lauma Pretkalniņa, Kristīne Levāne-Petrova",
@@ -1269,6 +1269,128 @@
       "year":null,
       "pages":"",
       "indexed":"SCOPUS",
+      "project_name":""
+   },
+   {
+      "authors":"Inguna Skadiņa",
+      "bibtex":"CLARIN in Latvia: current situation and future perspectives",
+      "journal":"Proceedings of the NODALIDA 2009 workshop Nordic Perspectives on the CLARIN Infrastructure of Common Language Resources",
+      "volume":"Vol. 5",
+      "place":"Odense, Denmark",
+      "publisher":"NEALT Proceedings Series",
+      "year":2009,
+      "pages":"p. 33-37",
+      "indexed":"",
+      "project_name":"",
+      "url":"http://dspace.utlib.ee/dspace/bitstream/handle/10062/9671/Clarin%20in%20Latvia.pdf?sequence=1"
+   },
+   {
+      "authors":"Inguna Skadiņa, Edgars Brālītis",
+      "bibtex":"English-Latvian SMT: knowledge or data?",
+      "journal":"Proceedings of the 17th Nordic Conference on Computational Linguistics NODALIDA",
+      "volume":"Vol. 4",
+      "place":"Odense, Denmark",
+      "publisher":"NEALT Proceedings Series",
+      "year":2009,
+      "pages":"p. 242–245",
+      "indexed":"",
+      "project_name":"",
+      "url":"http://dspace.utlib.ee/dspace/bitstream/handle/10062/9792/paper57.pdf?sequence=1"
+   },
+   {
+      "authors":"Inguna Skadiņa, Edgars Brālītis",
+      "bibtex":"Experimental Statistical Machine Translation System for Latvian",
+      "journal":"Proceedings of the 3rd Baltic Conference on HLT",
+      "volume":"",
+      "place":"Vilnius",
+      "publisher":"",
+      "year":2008,
+      "pages":"pp. 281-286",
+      "indexed":"",
+      "project_name":""
+   },
+   {
+      "authors":"Everita Andronova, Anta Trumpa, Pēteris Vanags, Renāte Siliņa-Piņķe",
+      "bibtex":"Latviešu valodas vēsturiskās vārdnīcas (16.–18. gs.) projekts: pirmā posma rezultāti un turpmākie uzdevumi",
+      "journal":"Letonikas otrais kongress. Valodniecības raksti – 1.",
+      "volume":"",
+      "place":"Rīga",
+      "publisher":"LU aģentūra \"Latviešu valodas institūts\"",
+      "year":2008,
+      "pages":"74.-89. lpp",
+      "indexed":"",
+      "project_name":""
+   },
+   {
+      "authors":"Everita Andronova, Anta Trumpa, Pēteris Vanags",
+      "bibtex":"Latviešu valodas vēsturiskās vārdnīcas (16.–18. gs.) projekts: iestrāde un problēmas",
+      "journal":"Letonikas pirmais kongress. Valodniecības raksti.",
+      "volume":"",
+      "place":"Rīga",
+      "publisher":"LZA",
+      "year":2006,
+      "pages":"9.–17. lpp.",
+      "indexed":"",
+      "project_name":""
+   },
+   {
+      "authors":"Gunta Nešpore, Normunds Grūzītis, Everita Andronova, Andrejs Spektors",
+      "bibtex":"K. Mīlenbaha un J. Endzelīna „Latviešu valodas vārdnīcas” pilnveidota elektroniskā versija",
+      "journal":"Letonikas pirmais kongress. Valodniecības raksti.",
+      "volume":"",
+      "place":"Rīga",
+      "publisher":"LZA",
+      "year":2006,
+      "pages":"241.-249. lpp.",
+      "indexed":"",
+      "project_name":""
+   },
+   {
+      "authors":"Inguna Skadiņa",
+      "bibtex":"Studies of English-Latvian Legal texts for Machine Translation.",
+      "journal":"Meaningful Texts: The Extraction of Semantic Information from Monolingual and Multilingual Corpora",
+      "volume":"",
+      "place":"London",
+      "publisher":"Continuum",
+      "year":2005,
+      "pages":"p. 188-195",
+      "indexed":"",
+      "project_name":""
+   },
+   {
+      "authors":"Inguna Skadiņa",
+      "bibtex":"Machine Translation for Latvian",
+      "journal":"Proceedings of First Baltic Conference „Human Language Technologies – the Baltic Perspective”",
+      "volume":"",
+      "place":"Rīga",
+      "publisher":"",
+      "year":2004,
+      "pages":"p. 102-106",
+      "indexed":"",
+      "project_name":""
+   },
+   {
+      "authors":"Inguna Greitāne",
+      "bibtex":"Mašīntulkošanas sistēma LATRA",
+      "journal":"LZA Vēstis",
+      "volume":"Nr. 3-4",
+      "place":"Rīga",
+      "publisher":"",
+      "year":1994,
+      "pages":"1.-6. lpp.",
+      "indexed":"",
+      "project_name":""
+   },
+   {
+      "authors":"Inguna Greitāne",
+      "bibtex":"Latviešu valodas lokāmo vārdšķiru locīšanas algoritmi.",
+      "journal":"LZA Vēstis",
+      "volume":"Nr. 1",
+      "place":"Rīga",
+      "publisher":"",
+      "year":1994,
+      "pages":"32.-39. lpp.",
+      "indexed":"",
       "project_name":""
    }
 ]

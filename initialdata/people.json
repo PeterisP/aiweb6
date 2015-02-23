@@ -9,150 +9,228 @@
         "linkedin": "http://www.linkedin.com/in/ppaikens",
         "github" : "https://github.com/PeterisP",
         "position_en": "Researcher",
-        "interests": "Information retrieval, machine learning, Latvian morphology"
+        "interests_en": "Information retrieval, machine learning, Latvian morphology",
+        "interests_lv": "Semantisko datu izguve, mašīnmācīšanās, morfoloģija"
     },
     {
         "degree": "B. sc. comp.",
         "linkedin": "lv.linkedin.com/in/gintagarkaje",
-        "interests": "Tiešsaistes valodas normalizācija, valodnieku anotēšanas rīku uzturēšana.",
+        "researchgate": "https://www.researchgate.net/profile/Ginta_Garkje",
+        "interests_en": "Normalization of user generated content, annotation tools",
+        "interests_lv": "Tiešsaistes valodas normalizācija, valodnieku anotēšanas rīku uzturēšana.",
         "github" : "https://github.com/ginta",
+        "email" : "ginta@ailab.lv",
         "name": "Ginta Garkāje",
-        "position": "Programmēšanas inženieris"
+        "position": "Programmēšanas inženieris",
+        "position_en": "Software engineer"
     },
     {
         "degree": "Dr. sc. comp.",
         "url": "http://www.ailab.lv/users/inguna/",
+        "researchgate": "https://www.researchgate.net/profile/Inguna_Skadina",
         "name": "Inguna Skadiņa",
-        "interests": "mašīntulkošana, valodas resursi, morfoloģiskā un sintaktiskā analīze\nLZP eksperte\n",
+        "interests_en": "Mašīntulkošana, valodas resursi, morfoloģiskā un sintaktiskā analīze\nLZP eksperte\n",
+        "interests_en": "Machine translation, language resources, morphosyntactic analysis",
         "position_en": "Senior researcher",
-        "position": "Vadošā pētniece"
+        "position": "Vadošā pētniece",
+        "email" : "inguna@latnet.lv"
     },
     {
         "name": "Lauma Pretkalniņa",
-        "interests": "sintaktiski anotētā latviešu korpusa izstrādes IT puse, statistisko latviešu valodas parseru apmācība, pagātnē esmu darbojusies ar veco LNB tekstu transliterēšanu un vārdnīcu transformēšanu mašīnlasāmā formā",
+        "interests_lv": "Sintaktiski anotētā latviešu korpusa izstrādes IT puse, statistisko latviešu valodas parseru apmācība, pagātnē esmu darbojusies ar veco LNB tekstu transliterēšanu un vārdnīcu transformēšanu mašīnlasāmā formā",
+        "interests_en": "Treebank development and statistical syntactic analysis",
         "researchgate": "http://www.researchgate.net/profile/Lauma_Pretkalnina/",
         "degree": "Mg. sc. comp.",
         "position": "Pētniece",
         "position_en": "Researcher",
         "github" : "https://github.com/lauma",
         "linkedin": "http://lv.linkedin.com/in/laumapretkalnina",
-        "url": "http://exp.ailab.lv/tred/"
+        "scholar": "http://scholar.google.lv/citations?user=sKVmFPAAAAAJ",
+        "url": "http://exp.ailab.lv/tred/",
+        "email" : "lauma@ailab.lv"
     },
     {
         "name": "Didzis Goško",
-        "degree": "???",
-        "interests": "Semantic frame parsing",
+        "degree": "Mg. phys.",
+        "interests_lv": "Mašīnmācīšanās, datorlingvistika, datorredze",
+        "interests_en": "Machine learning, computational linguistics, computer vision",
         "position": "Pētnieks",
         "position_en": "Researcher",
-        "github" : "https://github.com/didzis"
+        "github" : "https://github.com/didzis",
+        "linkedin" : "http://lv.linkedin.com/in/didzisg",
+        "researchgate" : "https://www.researchgate.net/profile/Didzis_Gosko",
+        "email" : "didzis@gmail.com"
     },
     {
         "degree": "Mg. philol.",
         "name": "Baiba Valkovska (dzim. Saulīte)",
-        "interests": "datorlingvistika, sintakse, semantika, diskurss",
+        "interests_lv": "Datorlingvistika, sintakse, semantika, diskurss",
+        "interests_en": "Computational linguistics, syntax, semantics, discourse",
         "position": "Pētniece",
-        "position_en": "Researcher"
+        "position_en": "Researcher",
+        "picture": "peoplepics/baiba.jpg",
+        "researchgate" : "https://www.researchgate.net/profile/Baiba_Saulite",
+        "email" : "baiba@ailab.lv"
     },
     {
         "degree": "Mg. philol.",
         "name": "Kristīne Pokratniece",
-        "interests": "Folkloras digitalizācija, latgalistika",
+        "interests_lv": "Folkloras digitalizācija, latgalistika",
+        "interests_en": "Digitization of folklore, latgalistics",
         "position": "Zinātniskā asistente",
-        "position_en": "Research assistant"
+        "position_en": "Research assistant",
+        "picture": "peoplepics/kristiine_p.jpg",
+        "email" : "pokratniece@gmail.com"
     },
     {
         "degree": "Mg. philol.",
         "name": "Daira Vēvere",
-        "interests": "Korpuslingvistika un dialektoloģija",
+        "interests_lv": "Korpuslingvistika un dialektoloģija",
+        "interests_en": "Corpus linguistics and dialectology",
         "position": "Zinātniskā asistente",
-        "position_en": "Research assistant"
+        "position_en": "Research assistant",
+        "picture": "peoplepics/daira.jpg",
+        "email" : "daira.vevere@lumii.lv"
     },
     {
         "researchgate": "http://www.researchgate.net/profile/Laura_Rituma/",
         "degree": "Mg. philol.",
         "name": "Laura Rituma",
-        "interests": "Sintaktiski marķēta latviešu valodas tekstu korpusa izveide, teksta semantiskā analīze",
+        "interests_lv": "Sintaktiski marķēta latviešu valodas tekstu korpusa izveide, teksta semantiskā analīze",
+        "interests_en": "Treebank and corpus development, semantic analysis",
         "position": "Pētniece",
-        "position_en": "Researcher"
+        "position_en": "Researcher",
+        "linkedin" : "http://lv.linkedin.com/pub/laura-rituma/63/810/13a",
+        "researchgate" : "https://www.researchgate.net/profile/Laura_Rituma",
+        "email" : "laura@ailab.lv"
     },
     {
         "researchgate": "https://www.researchgate.net/profile/Normunds_Gruzitis/",
         "degree": "Dr. sc. comp.",
         "linkedin": "https://www.linkedin.com/in/normundsg",
+        "scholar": "http://scholar.google.lv/citations?user=bRE9ckgAAAAJ",
         "name": "Normunds Grūzītis",
-        "interests": "Controlled natural language",
+        "interests_en": "Controlled natural language",
+        "interests_lv": "Kontrolētas dabiskās valodas",
         "position": "Vadošais pētnieks",
-        "position_en": "Senior researcher"
+        "position_en": "Senior researcher",
+        "github" : "https://github.com/normundsg",
+        "email" : "normundsg@ailab.lv"
     },
     {
         "degree": "Mg. philol.",
         "name": "Gunta Nešpore",
-        "interests": "leksiskā un gramatiskā semantika, leksikogrāfija",
+        "interests_lv": "Leksiskā un gramatiskā semantika, leksikogrāfija",
+        "interests_en": "Lexical and grammatical semantics, lexicography",
         "position": "Pētniece",
-        "position_en": "Researcher"
+        "position_en": "Researcher",
+        "researchgate" : "https://www.researchgate.net/researcher/2002238901_Gunta_Nespore",
+        "linkedin" : "https://lv.linkedin.com/pub/gunta-nešpore/19/b48/93",
+        "email" : "gunta@ailab.lv"
     },
     {
         "content": "Latvijas Zinātņu akadēmijas korespondētājloceklis<br\\><a href=\"http://www.ltn.lv/~guntis/\">http://www.ltn.lv/~guntis/</a><a href=\"http://www.lza.lv/scientists/barzdinsg.htm\">http://www.lza.lv/scientists/barzdinsg.htm</a><a href=\"http://www.lu.lv/par/kontaktinformacija/meklesana/persona/4d8da35761b21e91e579563043237f3f/\">http://www.lu.lv/par/kontaktinformacija/meklesana/persona/4d8da35761b21e91e579563043237f3f/</a>",
         "degree": "Dr. dat.",
         "name": "Guntis Bārzdiņš",
-        "interests": "Datorlingvistika, semantiskās tehnoloģijas",
+        "interests_lv": "Datorlingvistika, semantiskās tehnoloģijas",
+        "interests_en": "Computational linguistics, semantic technologies",
         "position": "Vadošais pētnieks",
-        "position_en": "Senior researcher"
+        "position_en": "Senior researcher",
+        "researchgate" : "https://www.researchgate.net/profile/Guntis_Barzdins2",
+        "linkedin" : "http://lv.linkedin.com/pub/guntis-barzdins/3a/175/6a7",
+        "email" : "guntis@latnet.lv"
     },
     {
         "degree": "B. sc. comp.",
         "name": "Roberts Darģis",
-        "interests": "Runas apstrādes tehnoloģijas",
+        "interests_lv": "Runas apstrādes tehnoloģijas",
+        "interests_en": "Speech processing and recognition",
         "github" : "https://github.com/skriptotajs",
-        "position": "Programmēšanas inženieris"
+        "position": "Programmēšanas inženieris",
+        "position_en": "Software engineer",
+        "picture": "peoplepics/roberts.jpg",
+        "linkedin" : "lv.linkedin.com/pub/roberts-darģis/66/25b/290",
+        "email" : "roberts.dargis@gmail.com"
     },
     {
         "degree": "B. sc. comp.",
         "name": "Artūrs Znotiņš",
-        "interests": "Koreferences, NER",
+        "interests_lv": "Dabiskās valodas apstrāde, runas atpazīšana, koreferences, NER",
+        "interests_en": "Natural language processing, speech recognition",
         "github": "https://github.com/chaosfoal",
-        "position": "Programmēšanas inženieris"
+        "position": "Programmēšanas inženieris",
+        "position_en": "Software engineer",
+        "linkedin" : "lv.linkedin.com/pub/artūrs-znotiņš/51/b90/549",
+        "email" : "arturs.znotins@gmail.com"
     },
     {
         "degree": "Mg. comp. sc.",
         "name": "Ilmārs Poikāns",
-        "interests": "Digitalizācija",
+        "interests_lv": "Digitalizācija",
+        "interests_en": "Digitalization",
         "position": "Pētnieks",
-        "position_en": "Researcher"
+        "position_en": "Researcher",
+        "linkedin" : "http://lv.linkedin.com/in/ilmars"
     },
     {
-        "degree": "Mg. philol.; profesionālais maģistra grāds tulkošanā un terminoloģijā",
+        "degree": "Mg. philol.; Mg. prof. philol.",
         "name": "Kristīne Levāne-Petrova",
-        "interests": "datorlingvistika, korpuslingvistika, sastatāmā valodniecība, tulkošana",
+        "interests_lv": "Datorlingvistika, korpuslingvistika, sastatāmā valodniecība, tulkošana",
+        "interests_en": "Computational linguistics, corpus linguistics, translation",
         "position": "Pētniece",
-        "position_en": "Researcher"
+        "position_en": "Researcher",
+        "picture": "peoplepics/kristiine_l.jpg",
+        "email" : "kristine.levane@gmail.com",
+        "researchgate" : "https://www.researchgate.net/researcher/2045547108_Kristine_Levane-Petrova"
     },
     {
         "content": "Latgaliešu rakstu valodas komisijas locekle",
         "degree": "Dr. philol.",
         "name": "Ilze Sperga",
-        "interests": "Latgalistika",
+        "interests_lv": "Latgalistika",
+        "interests_en": "Latgalistics",
         "position": "Vadošā pētniece",
         "position_en": "Senior researcher"
     },
     {
         "degree": "Dr. philol.",
         "name": "Ilze Auziņa",
-        "interests": "Ffonētika un fonoloģija, runas tehnoloģijas, korpuslingvistika",
+        "interests_en": "Phonetics and phonology, speech technologies, corpus linguistics",
+        "interests_lv": "Fonētika un fonoloģija, runas tehnoloģijas, korpuslingvistika",
         "position": "Vadošā pētniece",
         "position_en": "Senior researcher",
-        "content" : "mācību līdzekļi latviešu valodas apguvei (piem., http://maciunmacies.valoda.lv/valodas-apguve/e-nodarbibas)- metodiskie materiāli, piem., Latviešu valodas prasmes līmeņi, Pamatlīmenis.(http://maciunmacies.valoda.lv/images/Maci/Pieaugusajiem_Programmas/A1_A2_Prasmes_limeni.pdf)"
+        "content" : "Mācību līdzekļi latviešu valodas apguvei (piem., http://maciunmacies.valoda.lv/valodas-apguve/e-nodarbibas)- metodiskie materiāli, piem., Latviešu valodas prasmes līmeņi, Pamatlīmenis.(http://maciunmacies.valoda.lv/images/Maci/Pieaugusajiem_Programmas/A1_A2_Prasmes_limeni.pdf)",
+        "picture": "peoplepics/ilze_a.jpg",
+        "researchgate" : "https://www.researchgate.net/profile/Ilze_Auzia",
+        "linkedin" : "http://lv.linkedin.com/pub/ilze-auziņa/62/253/781",
+        "email" : "ilze.auzina@lumii.lv"
     },
     {
         "degree": "Mg. philol.",
         "name": "Guna Rābante-Buša",
-        "interests": "Fonētika, runas analīze un apstrāde",
-        "position": "Zinātniskā asistente"
+        "interests_lv": "Fonētika, runas analīze un apstrāde",
+        "interests_en": "Phonetics, speech analysis and processing",
+        "position": "Zinātniskā asistente",
+        "position_en": "Research assistant",
+        "picture": "peoplepics/guna.jpg",
+        "researchgate" : "https://www.researchgate.net/researcher/2007569767_Guna_Rabante",
+        "linkedin" : "http://lv.linkedin.com/pub/guna-rābante/3b/586/1b3",
+        "email" : "g.rabante@gmail.com"
     },
     {
-        "degree": "Dr.phys.",
+        "degree": "Dr. phys.",
         "name": "Andrejs Spektors",
-        "interests": "",
-        "position": "Laboratorijas vadītājs"
+        "position": "Laboratorijas vadītājs",
+        "position_en": "Head of laboratory",
+        "email" : "aspekt@ailab.lv"
+    },
+    {
+        "degree": "Mg. philol.",
+        "name": "Everita Andronova",
+        "interests_lv": "Korpuslingvistika, valodas vēsture, leksikogrāfija",
+        "interests_en": "Corpus linguistics, language history, lexicography",
+        "position": "Pētniece",
+        "position_en": "Researcher",
+        "email" : "everita@ailab.mii.lu.lv"
     }
 ]

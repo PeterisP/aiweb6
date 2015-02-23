@@ -40,6 +40,7 @@ class Person(Page):
 	linkedin_url = models.CharField(max_length=300, blank=True)
 	scholar_url = models.CharField(max_length=300, blank=True)
 	github_url = models.CharField(max_length=300, blank=True)
+	homepage_url = models.CharField(max_length=300, blank=True)
 
 	interests_en = models.CharField(max_length=300, blank=True)
 	interests_lv = models.CharField(max_length=300, blank=True)
@@ -49,6 +50,8 @@ class Person(Page):
 
 	content_en = RichTextField(_("Content_EN"), blank=True)
 	content_lv = RichTextField(_("Content_LV"), blank=True)
+
+	picture = models.ImageField(upload_to = "peoplepics")
 
 	search_fields = ("content_en", "content_lv")
 
